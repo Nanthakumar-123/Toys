@@ -1,0 +1,210 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Moving banner */
+.move {
+  background: #ff5722;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+.move h2 {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+/* Newsletter section */
+.last {
+  background: #f8f8f8;
+  text-align: center;
+  padding: 20px;
+}
+.last h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.last input {
+  margin-left: 15px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+.last input:focus {
+  box-shadow: 0 0 6px rgba(255, 87, 34, 0.6);
+}
+.last button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  background: #ff5722;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.last button:hover {
+  background: #e64a19;
+  transform: translateY(-2px);
+}
+
+/* Main footer content */
+.vvv {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #333;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: start;
+  
+}
+.vvv h3 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  border-bottom: 2px solid #ff5722;
+  display: inline-block;
+  padding-bottom: 4px;
+  
+}
+.vvv ul {
+  list-style: none;
+}
+.vvv li {
+  margin: 6px 0;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+  
+}
+.vvv li:hover {
+  color: #ff5722;
+  transform: translateX(5px);
+}
+
+/* Get in touch */
+.get p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: white;
+}
+.get a {
+  margin-right: 10px;
+  color: #fff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.get a:hover {
+  color: #ff5722;
+  transform: scale(1.2);
+}
+
+/* Copyright */
+.all {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 12px;
+  font-size: 13px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .vvv {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .vvv > div {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* .move{
+    background-color: rgb(255, 187, 0) ;
+    
+  }
+.last{
+  text-align: center;
+  margin-top: 50px;
+}
+  .last h5{
+    color: rgb(9, 9, 91);
+  }
+  .last input{
+    margin-left: 50px;
+    padding: 10px;
+    color: rgb(9, 9, 91);
+  }
+  .last button{
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: rgb(255, 187, 0) ;
+    color: rgb(9, 9, 91);
+    border-style: none;
+    border-radius: 30px;
+    
+  }
+
+  .vvv{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: white;
+    background-color: rgb(9, 9, 91);
+
+  }
+  .vvv h3{
+    margin-left: 90px;
+  }
+  .vvv p{
+    margin-left: 90px;
+  }
+  .com ul li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-left: 60px;
+  }
+  .pol ul li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-left: 60px;
+  }
+  .gif ul li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-left: 60px;
+  }
+  .get p{
+    color: white;
+  }
+  .get a{
+    padding-right: 5px;
+    
+  }
+  
+  .all {
+    text-align: center;
+    background-color: rgb(9, 9, 91);
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 20px;
+
+  } */

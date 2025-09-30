@@ -1,0 +1,102 @@
+/* Card container */
+.update6 {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  animation: fadeIn 1s ease-in-out;
+  transition: transform 0.3s ease;
+}
+
+.update6:hover {
+  transform: translateY(-5px);
+}
+
+/* Card body */
+.update5 {
+  padding: 30px;
+}
+
+/* Form heading */
+.update5 h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation: slideDown 0.8s ease-in-out;
+}
+
+/* Input groups */
+.update0, .update1, .update2, .update3, .update4 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.update0 label, .update1 label, .update2 label, .update3 label, .update4 label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Inputs */
+.update0 input, .update1 input, .update2 input, .update3 input, .update4 input {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.update0 input:focus, .update1 input:focus, .update2 input:focus, .update3 input:focus, .update4 input:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+/* Button container */
+.update7 {
+  text-align: center;
+}
+
+/* Button */
+.update7 button {
+  padding: 12px 25px;
+  background: #28a745;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.update7 button:hover {
+  background: #218838;
+  transform: scale(1.05);
+}
+
+/* Section spacing */
+.update9 {
+  margin-top: 15px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px);}
+  100% { opacity: 1; transform: translateY(0);}
+}
+
+@keyframes slideDown {
+  0% { opacity: 0; transform: translateY(-30px);}
+  100% { opacity: 1; transform: translateY(0);}
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .update6 {
+    margin: 20px;
+    padding: 20px;
+  }
+}
