@@ -7,7 +7,7 @@ const Update = () => {
   const [ProductItems, setProductItems] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:6030/getdata`)
+    fetch(`https://kidstouykiddy.onrender.com/getdata`)
       .then((res) => res.json())
       .then((data) => setProductItems(data))
       .catch((error) => {
@@ -17,7 +17,7 @@ const Update = () => {
   }, []);
 
   const DeleteItems = (id) => {
-    fetch(`http://localhost:6030/del/${id}`, {
+    fetch(`https://kidstouykiddy.onrender.com/del/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

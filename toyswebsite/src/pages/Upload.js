@@ -27,7 +27,7 @@ const Upload = () => {
       const foods = { title, img, des, food, price, quantity };
       console.log(foods);
 
-      fetch("http://localhost:6030/up", {
+      fetch("https://kidstouykiddy.onrender.com/up", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

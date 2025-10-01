@@ -9,7 +9,7 @@ const Edit = () => {
   const [productsItems, setproductsItems] = useState({});
 
   useEffect(() => {
-    fetch(`http://localhost:6030/getid/${id}`)
+    fetch(`https://kidstouykiddy.onrender.com/getid/${id}`)
       .then((res) => res.json())
       .then((data) => setproductsItems(data));
   },[]);
@@ -25,7 +25,7 @@ const Edit = () => {
     const update = { title, des, food, price, img };
     console.log(update);
 
-    fetch(`http://localhost:6030/edit/${id}`, {
+    fetch(`https://kidstouykiddy.onrender.com/edit/${id}`, {
       method: "PATCH",
       headers: {
         "content-type": "application/json",

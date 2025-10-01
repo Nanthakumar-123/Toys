@@ -3,7 +3,15 @@ const app = express();
 const port = 6030;
 const cors = require('cors');
 
-app.use(cors());
+// app.use(cors());
+
+
+app.use(cors({
+  origin: "https://toys-eyqn.onrender.com",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
+
 app.use(express.json());
 
 app.get('/',(req, res)=>{
